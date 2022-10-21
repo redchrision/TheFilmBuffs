@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<!-- This head section contains all the invisible information about the page -->
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This is the fictitious monthly newsletter for members of The Film Buffs club from Bucharest (Romania) and general public passionate about cinema topics.">
+	<meta name="author" content="The Film Buffs club members, in collaboration with Bucharest Cultural Centre.">
+	<meta name="keywords" content="Cinema Movie Film 'The Film Buffs' 'Cinema organisation' ">
+	<meta name="refresh" content="600">
+
+	<!-- Responsive viewport meta tag -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+	<!-- Bootstrap CSS --> 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	
+	<!-- Style Sheet file, underneath the Bootstrap folder-->
+
+	<link rel="stylesheet" href="./StyleSheet/style.css">
+	<link rel="stylesheet" type="text/css" href="./StyleSheet/lightslider.css">
+
+	<!--Font Awesome CSS-->
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/v4-shims.css">
+
+	<!-- Title of the 1st page -->
+
+	<title>The Film Buffs | Filmography</title>
+	 
+</head>
+
+<!-- This body section contains the structure for all the visble content -->
+<body>
+
+<!--Navigation Bar with Logo-->
+<!--Resource: R. Villalobos, Bootstrap 4 Essential Training“, 2018. [Online]. Available:  https://github.com/planetoftheweb/bootstrap4 [Accessed: 19-Sept-2020]-->
+
+<nav class="navbar navbar-dark navbar-expand-sm" style="background-color:#454544">
+	<div class="container">
+
+		<!--Hamburger button-->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggleNav"
+		aria-controls="toggleNav"
+		aria-expanded="false" aria-label="Toggle Navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<!--Logo image-->
+		<a class="navbar-brand" href="./index.html">
+			<!--Resource: Logo created manually using the https://hatchful.shopify.com/ application-->
+			<img class="img-fluid rounded-circle" src="img/logo.png" style="width: 125px;" alt="The Film Buffs Logo">
+		</a>
+		<span class="navbar-text d-none d-xl-inline-block">For all cinema aficionados out there</span>
+
+		<!--Hamburger menu-->
+		<div class="collapse navbar-collapse" id="toggleNav">
+			
+		<!--Navbar-->
+		<div class="navbar-nav ml-sm-auto">
+			<a class="nav-item nav-link" href="./index.html">Home</a>
+
+			<!--Dropdown menu-->
+			<div class="dropdown">
+				<a class="nav-item nav-link dropdown-toggle"
+				data-toggle="dropdown" id="directorSpotlightDropdown"
+				area-haspopup="true" area-expanded="false"
+				href="#">Director Spotlight</a>
+
+				<div class="dropdown-menu" style="background-color:#F4CC74" area-labelledby="directorSpotlightDropdown">
+					<a class="dropdown-item text-dark" style="background-color:#F4CC74" href="./directors.html">August 2020</a>
+					
+					<!--Disabled item-->
+					<div class="dropdown-item text-black-50 disabled" >July 2020 - Archived</div>
+				</div>
+			</div>
+
+			<a class="nav-item nav-link active" href="./filmography.html">Filmography</a>
+			<a class="nav-item nav-link" href="./club-values.html">Club Values</a>
+			<a class="nav-item nav-link" href="./contact.html">Contact Us</a>
+	
+			</div><!--navbar-->
+		</div><!--collapse-->
+	</div><!--container-->
+  </nav><!--Navigation bar-->
+
+<!--Filmography Carousel-->
+<!--Resource: Going-To Internet, “Responsive Product Slider Using HTML CSS and Javascript”, 2020. [Online]. Available: https://www.youtube.com/watch?v=drOgpionKpY&list=PLxWnfLOoHOJaDIec5R0cVa8hwfNg_mQD_&index=11&t=1s [Accessed: 19-Sept 2020]-->
+<!--Resource: JQuery lightSlider [Online]. Available: http://sachinchoolur.github.io/lightslider/index.html [Accessed: 19-Sept 2020]-->
+
+<section>
+	<div class="poster-container">
+		<!---------slider----------->
+		<ul id="autoWidth" class="cs-hidden">
+			<!--1--------------->
+			<!--slider box-->
+			<li class="item-a">
+			<div class="poster-box">
+			<!--model-->	
+			<!--Resource image: "The poster art copyright is believed to belong to the distributor of the film, Cocinor, the publisher of the film or the graphic artist."", "The 400 Blows" [Online]. Available: https://en.wikipedia.org/wiki/File:Quatre_coups2.jpg [Accessed: 18-Sep-2020]-->
+			<img src="img/the-400-blows-poster.jpg" alt="The 400 Blows poster" class="model">
+			</div>
+			</li>
+
+			<!--2--------------->
+			<!--slider box-->
+			<li class="item-a">
+				<div class="poster-box">
+				<!--model-->
+			<!--Resource image:[www.affichescinema.com], "Antoine and Colette" [Online]. Available: https://en.wikipedia.org/wiki/File:Amour_ans.jpg [Accessed: 18-Sep-2020]-->
+				<img src="img/antoine-and-colette-poster.jpg" alt="Antoine and Colette poster" class="model">
+				</div>
+				</li>
+
+			<!--3--------------->
+			<!--slider box-->
+			<li class="item-a">
+				<div class="poster-box">
+				<!--model-->	
+			<!--Resource image:[www.affichescinema.com], "Shoot the Piano Player" [Online]. Available: https://en.wikipedia.org/wiki/File:Tirez_sur_le_pianiste.jpg [Accessed: 18-Sep-2020]-->
+				<img src="img/shoot-the-piano-player-poster.jpg" alt="Shoot the Piano player poster" class="model">
+				</div>
+				</li>
+
+			<!--4--------------->
+			<!--slider box-->
+			<li class="item-a">
+				<div class="poster-box">
+				<!--model-->
+			<!--Resource image:[www.affichescinema.com], "Love on the Run (1979 film)" [Online]. Available: https://en.wikipedia.org/wiki/File:Amour_fuite.jpg [Accessed: 18-Sep-2020]-->
+				<img src="img/love-on-the-run-poster.jpg" alt="Love on the Run poster" class="model">
+				</div>
+				</li>
+
+			<!--5--------------->
+			<!--slider box-->
+			<li class="item-a">
+				<div class="poster-box">
+				<!--model-->
+				<!--Resource image:[www.affichescinema.com], "Stolen Kisses" [Online]. Available: https://en.wikipedia.org/wiki/File:Baisers_voles.jpg [Accessed: 18-Sep-2020]-->	
+				<img src="img/stolen-kisses-poster.jpg" alt="Stolen Kisses poster" class="model">
+				</div>
+				</li>
+
+			<!--6--------------->
+			<!--slider box-->
+			<li class="item-a">
+				<div class="poster-box">
+				<!--model-->	
+				<!--Resource image:C. Broutin, "Jules et Jim" [Online]. Available: https://en.wikipedia.org/wiki/File:Jules_et_jim_affiche.jpg [Accessed: 18-Sep-2020]-->
+				<img src="img/jules-and-jim-poster.jpg" alt="Jules and Jim poster" class="model">
+				</div>
+				</li>
+		</ul>
+	</div>
+</section>
+
+<section class="about-us py-3" id="about-us">
+	<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<!--Resource: The Criterion Collection. [Online]. Available: https://www.criterion.com/films/218-jules-and-jim [Accessed: 19-Sept-2020]-->
+			<h1 class="display-3 text-center">Film of the Week: Jules and Jim</h1>
+			<hr>
+			<p>Acclaimed as one of the best films ever made, Jules and Jim follows the friendship story between two friends and Catherine, the women they are both interested in and fall in love.</p>
+			<p>Having François Truffaut as director, and Jeanne Moreau stars as the charming and willful Catherine, with an enigmatic smile and a passionate way of being. This is something that lures Jules (Oskar Werner) and Jim (Henri Serre) into one of cinema’s most captivating romantic triangles.</p>	
+			<p>A meditation on freedom, loyalty, and love, Jules and Jim was a worldwide smash in 1962 and to this day is one of the most interesting pieces of classical cinema.</p>	 	
+		</div>
+		<div class="col-md-6 text-center">
+			<!--Resource image:C. Broutin, "Jules et Jim" [Online]. Available: https://en.wikipedia.org/wiki/File:Jules_et_jim_affiche.jpg [Accessed: 18-Sep-2020]-->
+			<img class="rounded-circle" src="img/jules-and-jim-poster.jpg" alt="Jules and Jim poster">
+		</div>
+	</div>
+</div>
+</section>
+
+<section>
+	<div class="container trailer">
+		<h1 class="mt-5 display-3 text-center">Let's check out the Trailer</h1>
+		<hr>
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/x5IAYIUKTaI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+</section>
+
+
+ <!--Progress bar - review-->
+ <!--Resource: R. Villalobos, Bootstrap 4 Essential Training“, 2018. [Online]. Available:  https://github.com/planetoftheweb/bootstrap4 [Accessed: 19-Sept-2020]-->
+
+ <section class="py-3">
+	<div class="container survey">
+		<div>
+			<h1 class="display-3 text-center">The Film Buffs Reviews</h1>
+			<hr>
+			<p>We would like to thank to the ones who filled out the review survey sent by email. We have answers from 30 newsletter subscribers and this is thier average score for Jules and Jim:</p>
+		</div>
+
+		<div class="row">
+			  <section class="col-12">
+			  <section class="content">
+				<h3>Story / Screenplay</h3>
+		<div class="progress">
+	  <!--role, aria-value-now, aria-value-min, aria-value-max, added for accesibility-->
+		 <div class="progress-bar progress-bar-striped" role="progressbar" aria-value-now="73%" aria-value-min="0"  aria-value-max="100%" style="width:73%; background-color:#CCAC64">73%</div>
+		</div>
+	<p>Criteria: Story is inventive, fresh and masterfully woven. Dialog is excellent.  Characters are compelling and distinctive.</p>
+	
+	<h3>Acting</h3>
+	<div class="progress">
+		<div class="progress-bar progress-bar-striped" role="progressbar" aria-value-now="65%" aria-value-min="0"  aria-value-max="100%" style="width:65%; background-color:#CCAC64">65%</div>
+	</div>
+	<p>Criteria: Relational dynamics are strong & believable. Actors aptly reach our center of caring for them.</p>
+  
+	<h3>Director</h3>
+	<div class="progress">
+		<div class="progress-bar progress-bar-striped" role="progressbar" aria-value-now="80%" aria-value-min="0"  aria-value-max="100%" style="width:80%; background-color:#CCAC64">80%</div>
+	</div>
+	<p>Criteria: Story is told in a unified, unique & cohesive, clear, distinctive style & tone, Relational dynamics are believable.</p>
+	  
+	  </section>
+	</div><!-- row -->
+  </div><!-- content container -->
+  </section>
+	
+	  
+	<!-- Footer -->
+	<!--Resource: Divinector, “How to Design Responsive Footer with html css and Bootstrap | Footer Design html css”, 2019. [Online]. Available: https://www.youtube.com/watch?v=4jelwvPcS8w [Accessed: 19-Sept 2020]-->
+
+	<footer class="page-footer">
+		<div class="tfb-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12 segment-one text-light md-mb-30 sm-mb-30">
+						<h4>The Film Buffs</h4>
+						<p>For all cinema aficionados out there</p>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12 segment-two text-light md-mb-30 sm-mb-30">
+						<h4>Useful Links</h4>
+						<ul>
+							<li><a href="#" class="text-light">Privacy Policy</a></li>
+							<li><a href="#" class="text-light">Cookie Policy</a></li>
+							<li><a href="#" class="text-light">Terms of Use </a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12 segment-three text-light sm-mb-30">
+						<h4>Follow Us</h4>
+						<p>Stay in touch with us on social media</p>
+						<a href="#" class="text-light tfb-social tfb-facebook"><i class="fa fa-facebook"></i></a>
+						<a href="#" class="text-light tfb-social tfb-twitter"><i class="fa fa-twitter"></i></a>
+						<a href="#" class="text-light tfb-social tfb-linkedin"><i class="fa fa-linkedin"></i></a>
+						<a href="#" class="text-light tfb-social tfb-pintrest"><i class="fa fa-pinterest"></i></a>
+					</div>
+					
+					<div class="col-md-3 col-sm-6 col-xs-12 segment-four text-light sm-mb-30">
+						<h4>Our Newsletter</h4>
+						<p>If you want to receive monthly The Film Buffs Newsletter, please subscribe here.</p>
+						<form action="">
+							<input type="email" value="Your email">
+							<input type="submit" style="background-color:#A48C5C" value="Subscribe" class="text-light">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Copyright -->
+		<div class="footer-copyright text-center text-secondary py-3" 
+		style="background-color:#383837">
+			© 2020 Copyright:
+			<a href="#" class="text-light">the-film-buffs.com</a>
+			<a href="./report.html">WEBSITE REPORT</a>
+		  </div>
+		  
+	</footer>
+
+
+
+	<!-- Optional JavaScript -->
+	
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="lightslider.js"></script>
+	<script src="script.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>

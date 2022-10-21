@@ -1,0 +1,304 @@
+/* Carousel index Home page */
+
+@media (max-width: 650px) {
+	.tfb-carousel-p{
+		display:none;
+	} 
+}
+
+.carousel-item h3{
+	font-family:Brush Script MT;
+	letter-spacing: 1px
+}
+
+/* Navigation bar (for all five pages*/
+
+.navbar-text{
+	font-family:Brush Script MT;
+	font-size: 25px;
+	letter-spacing: 1px
+}
+
+/* Bottons */
+.buttons{
+	padding:40px; 
+}
+
+/* About Us section */
+.about-us h1{
+	font-family:Brush Script MT;
+	letter-spacing: 1px
+}
+
+.about-us img{
+	max-width: 80%;
+	height: auto;
+	padding:10px; 
+	margin:5px;
+}
+
+/* Get started section*/
+
+.get-started h1{
+	font-family:Brush Script MT;
+	letter-spacing: 1px
+}
+
+/* Footer section (for all five pages) */
+/*Resource: Divinector, “How to Design Responsive Footer with html css and Bootstrap | Footer Design html css”, 2019. [Online]. Available: https://www.youtube.com/watch?v=4jelwvPcS8w [Accessed: 19-Sept 2020]*/
+
+.tfb-footer{
+	background-color:#454544; 
+	padding:20px; 
+	font-size:80%
+}
+
+/*The Film Buffs segment */
+/*Resource: Divinector, “How to Design Responsive Footer with html css and Bootstrap | Footer Design html css”, 2019. [Online]. Available: https://www.youtube.com/watch?v=4jelwvPcS8w [Accessed: 19-Sept 2020]*/
+
+.segment-one h4{
+	font-family:Brush Script MT;
+	letter-spacing: 1px;
+}
+
+/* Useful Links */
+/*Resource: Divinector, “How to Design Responsive Footer with html css and Bootstrap | Footer Design html css”, 2019. [Online]. Available: https://www.youtube.com/watch?v=4jelwvPcS8w [Accessed: 19-Sept 2020]*/
+
+.segment-two h4{
+	font-family:Brush Script MT;
+	letter-spacing: 1px;
+}
+
+/* Follow Us */
+/*Resource: Divinector, “How to Design Responsive Footer with html css and Bootstrap | Footer Design html css”, 2019. [Online]. Available: https://www.youtube.com/watch?v=4jelwvPcS8w [Accessed: 19-Sept 2020]*/
+
+.segment-three h4{
+	font-family:Brush Script MT;
+	letter-spacing: 1px;
+}
+
+/* Social media */
+/*Resource: Divinector, “How to Design Responsive Footer with html css and Bootstrap | Footer Design html css”, 2019. [Online]. Available: https://www.youtube.com/watch?v=4jelwvPcS8w [Accessed: 19-Sept 2020]*/
+
+.tfb-social{
+	width:40px;
+	height:40px;
+	display: inline-block;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+.tfb-facebook{
+	background: #4267B2;
+}
+
+.tfb-twitter{
+	background: #00acee;
+} 
+
+.tfb-linkedin{
+	background: #0e76a8;
+}
+
+.tfb-pintrest{
+	background: #c8232c;
+}
+
+.segment-three a i{
+	font-size: 20px;
+	color: #fff;
+	padding: 10px 12px;
+}
+
+/* Our Newsletter */
+
+.segment-four h4{
+	font-family:Brush Script MT;
+	letter-spacing: 1px;
+}
+
+
+/* Breadcrumb */
+.breadcrumb{
+	font-size:15px;
+	background-color:#F2F2F2;
+	padding-left: 15%;
+	margin-bottom: 0%;
+}
+
+/* Director Spotlight text */
+/* Resource: Better Dev, “Radial Gradient Spotlight Effect On Mousemove | HTML CSS & Javascript Tutorial”, 2020. [Online]. Available: https://www.youtube.com/watch?v=x7onxhz4hp8&list=PLxWnfLOoHOJaDIec5R0cVa8hwfNg_mQD_&index=12&t=8s [Accessed: 19-Sept 2020]*/
+
+.spotlight-text h1{
+	position:absolute;
+	top:70%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	cursor: none;
+	z-index: 1;
+	font-family:Brush Script MT;
+	letter-spacing: 1px;
+	color:#F7FFF7;
+	text-shadow: 10px 10px 10px #000;
+	pointer-events: none;
+	user-select:none;
+	white-space: nowrap;
+	opacity: 0.8;
+}
+
+/* Spotlight with background image */
+/* Resource: Better Dev, “Radial Gradient Spotlight Effect On Mousemove | HTML CSS & Javascript Tutorial”, 2020. [Online]. Available: https://www.youtube.com/watch?v=x7onxhz4hp8&list=PLxWnfLOoHOJaDIec5R0cVa8hwfNg_mQD_&index=12&t=8s [Accessed: 19-Sept 2020]*/
+
+.spotlight {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-image: radial-gradient(circle,transparent 200px, #2F2F2E 300px);
+}
+
+/* Survey The Film Buffs */
+
+.survey h1{
+	font-family:Brush Script MT;
+	letter-spacing: 1px;
+}
+
+.survey h2{
+	font-family:Brush Script MT;
+	letter-spacing: 1px;
+}
+
+.survey h3{
+	font-family:Brush Script MT;
+	letter-spacing: 1px;
+}
+
+/* Current and previous directors */
+
+.directors h1{
+	font-family:Brush Script MT;
+	letter-spacing: 1px;
+}
+
+.directors h2{
+	font-family:Brush Script MT;
+	letter-spacing: 1px;
+}
+
+/*Fiolmography page*/
+
+/* Filmography carousel */
+/*Resource: Going-To Internet, “Responsive Product Slider Using HTML CSS and Javascript”, 2020. [Online]. Available: https://www.youtube.com/watch?v=drOgpionKpY&list=PLxWnfLOoHOJaDIec5R0cVa8hwfNg_mQD_&index=11&t=1s [Accessed: 19-Sept 2020]*/
+/*Resource: JQuery lightSlider [Online]. Available: http://sachinchoolur.github.io/lightslider/index.html [Accessed: 19-Sept 2020]*/
+
+
+.poster-container{
+	width: 100%;
+	height: 100vh;
+	background-color:#CCAC64;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.poster-box{
+	width: 350px;
+	height: 610px;
+	background-color: #F4CC74;
+	border-radius: 10px;
+	box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	margin: 20px 10px;
+}
+
+.model{
+	width: 300px;
+	height: 580px;
+	max-height: 100%;
+	max-width: 100%;
+	margin: 20px 10px;
+}
+
+/* Trailer section */ 
+
+.trailer h1{
+	font-family:Brush Script MT;
+	letter-spacing: 1px;
+}
+
+/*Club Values page*/
+
+.club-values h1{
+	font-family:Brush Script MT;
+	letter-spacing: 1px;
+	margin:20px 10px;
+}
+
+.values h3{
+	font-family:Brush Script MT;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+/*Contact Us page*/
+
+.card {
+	margin: 40px;
+}
+.card h1{
+	font-family:Brush Script MT;
+	letter-spacing: 1px;
+}
+
+/* Map */
+
+.map-container-6{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+	}
+	.map-container-6 iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+	}
+
+.contact-info h2{
+	font-family:Brush Script MT;
+	letter-spacing: 1px;
+}
+
+.write-to-us h3{
+	font-family:Brush Script MT;
+	letter-spacing: 1px;
+	padding:20px;
+}
+
+.practical-info h3{
+	font-family:Brush Script MT;
+	letter-spacing: 1px;
+	padding:30px;
+}
+
+/*responsive css*/
+/*Resource: Divinector, “How to Design Responsive Footer with html css and Bootstrap | Footer Design html css”, 2019. [Online]. Available: https://www.youtube.com/watch?v=4jelwvPcS8w [Accessed: 19-Sept 2020]*/
+
+@media only screen and (min-width: 768px) and (max-width:991px){
+	.md-mb-30{
+		margin-bottom: 30px;
+	}
+}
+@media only screen and (max-width: 767 px){
+	.sm-mb-30{
+		margin-bottom:30px;
+	}
+	.footer.top{
+		padding: 50px 0;
+	}
+}

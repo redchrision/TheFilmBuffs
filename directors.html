@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<!-- This head section contains all the invisible information about the page -->
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This is the fictitious monthly newsletter for members of The Film Buffs club from Bucharest (Romania) and general public passionate about cinema topics.">
+	<meta name="author" content="The Film Buffs club members, in collaboration with Bucharest Cultural Centre.">
+	<meta name="keywords" content="Cinema Movie Film 'The Film Buffs' 'Cinema organisation' ">
+	<meta name="refresh" content="600">
+
+	<!-- Responsive viewport meta tag -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+	<!-- Bootstrap CSS --> 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	
+	<!-- Style Sheet file, underneath the Bootstrap folder-->
+
+	<link rel="stylesheet" href="./StyleSheet/style.css">
+
+	<!--Font Awesome CSS-->
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/v4-shims.css">
+
+	<!-- Title of the 1st page -->
+
+	<title>The Film Buffs | Director Spotlight</title>
+	 
+</head>
+
+<!-- This body section contains the structure for all the visble content -->
+<body>
+	  
+	<!--Navigation Bar with Logo-->
+	<!--Resource: R. Villalobos, Bootstrap 4 Essential Training“, 2018. [Online]. Available:  https://github.com/planetoftheweb/bootstrap4 [Accessed: 19-Sept-2020]-->
+
+	<nav class="navbar navbar-dark navbar-expand-sm" style="background-color:#454544">
+		<div class="container">
+	
+			<!--Hamburger button-->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggleNav"
+			aria-controls="toggleNav"
+			aria-expanded="false" aria-label="Toggle Navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<!--Logo image-->
+			<a class="navbar-brand" href="./index.html">
+				<!--Resource: Logo created manually using the https://hatchful.shopify.com/ application-->
+				<img class="img-fluid rounded-circle" src="img/logo.png" style="width: 125px;" alt="The Film Buffs Logo">
+			</a>
+			<span class="navbar-text d-none d-xl-inline-block">For all cinema aficionados out there</span>
+	
+			<!--Hamburger menu-->
+			<div class="collapse navbar-collapse" id="toggleNav">
+				
+				<!--Navbar-->
+				<div class="navbar-nav ml-sm-auto">
+					<a class="nav-item nav-link" href="./index.html">Home</a>
+		
+					<!--Dropdown menu-->
+					<div class="dropdown active">
+						<a class="nav-item nav-link dropdown-toggle"
+						data-toggle="dropdown" id="directorSpotlightDropdown"
+						area-haspopup="true" area-expanded="false"
+						href="#">Director Spotlight</a>
+		
+						<div class="dropdown-menu" style="background-color:#F4CC74" area-labelledby="directorSpotlightDropdown">
+							<a class="dropdown-item text-dark" style="background-color:#F4CC74" href="./directors.html">August 2020</a>
+							
+							<!--Disabled item-->
+							<div class="dropdown-item text-black-50 disabled" >July 2020 - Archived</div>
+						</div>
+					</div>
+		
+					<a class="nav-item nav-link" href="./filmography.html">Filmography</a>
+					<a class="nav-item nav-link" href="./club-values.html">Club Values</a>
+					<a class="nav-item nav-link" href="./contact.html">Contact Us</a>
+		
+				</div><!--navbar-->
+			</div><!--collapse-->
+		</div><!--container-->
+	  </nav><!--Navigation bar-->
+
+<!-- Breadcrumb -->
+<!--Resource: R. Villalobos, Bootstrap 4 Essential Training“, 2018. [Online]. Available:  https://github.com/planetoftheweb/bootstrap4 [Accessed: 19-Sept-2020]-->
+
+	<nav aria-label="breadcrumb">
+		<ol class="breadcrumb">
+		  <li class="breadcrumb-item"><a href="./index.html" class="text-dark">Home</a></li>
+		  <li class="breadcrumb-item active" aria-current="page">Director Spotlight - August 2020</li>
+		</ol>
+	</nav>	
+
+<!-- Background Image with Spotlight Effect On Mousemove -->
+<!-- Resource: Better Dev, “Radial Gradient Spotlight Effect On Mousemove | HTML CSS & Javascript Tutorial”, 2020. [Online]. Available: https://www.youtube.com/watch?v=x7onxhz4hp8&list=PLxWnfLOoHOJaDIec5R0cVa8hwfNg_mQD_&index=12&t=8s [Accessed: 19-Sept 2020]-->
+<section>
+<section id="spotlight-img" class="img-fluid" style="height: 100vh; background: url(img/jules-et-jim-caption.jpg) no-repeat center; background-size: cover; cursor:none">
+<div class="spotlight-text">
+<h1 class="display-3">François Truffaut</h1>
+</div>
+<div class="spotlight">
+</div>
+</section>
+
+
+<!--Current director-->
+
+<section class="py-3">
+	<div class="container directors">
+		  <div>
+			  <h2 class="display-4 text-center">Icon of the French New Wave movement</h1>
+			  <hr>
+		  </div>
+  
+	  <section class="media mb-4">
+		<!--Resource image: Jack de Nijs / Anefo, "File:Franse regisseur Francois Truffaut voor bioscoop Cinétol, waar zijn film draait , Bestanddeelnr 917-5420.jpg" [Online]. Available: https://ccsearch.creativecommons.org/photos/9a18c30f-912e-4d32-ac8d-8a151e42ba0f [Accessed: 18-Sep-2020]-->
+		  <img class="d-flex mr-3 img-fluid rounded-circle" style="width:200px;" src="img/francois-truffaut.jpg" alt="Francois Truffaut Photo">
+		  <div class="media-body">
+			  <!--Wikipedia, the free encyclopedia. [Online]. Available: https://en.wikipedia.org/wiki/Fran%C3%A7ois_Truffaut [Accessed: 19-Sept-2020]-->
+			  <h2>François Roland Truffaut</h2>
+			  <h5>Actor. Film critic. Film maker. Producer. Screenwriter</h5>
+			  <p>He is one of the founders of the French New Wave and had a career lasting over a quarter of a century. He worked on more than 25 films and remains  one of the most appreciated director from the French film industry. In his career, he was also a screenwriter, producer and actor. We have selected some of his films that we are reccomending from his vast work and this week we are covering Jim and Jules in our filmography section.</p>
+			</div>
+		  </section>
+	</section>
+	  
+	
+ 
+  <!--Previous directors-->
+  <!--Resource: R. Villalobos, Bootstrap 4 Essential Training“, 2018. [Online]. Available:  https://github.com/planetoftheweb/bootstrap4 [Accessed: 19-Sept-2020]-->
+
+  <section class="py-3" style="background-color:#E3E5E0;">
+  <div class="container directors">
+		<div>
+			<h2 class="display-4 text-center">The Film Buffs Top 3 Movies</h2>
+			<hr>
+		</div>
+
+	<section class="media mb-4">
+		<!--Resource image: [www.brevestoriadelcinema.org], "Jules et Jim" [Online]. Available: https://ccsearch.creativecommons.org/photos/849416be-75a3-4273-8e95-3250c892d677 [Accessed: 18-Sep-2020]-->
+		<img class="d-flex mr-3 img-fluid" style="width:200px;" src="img/jules-and-jim-poster.jpg" alt="Jules and Jim Poster Photo">
+		<div class="media-body">
+			<h2>Jules and Jim</h2>
+			<h5>(1962)</h5>
+			<!--Wikipedia, the free encyclopedia. [Online]. Available: https://en.wikipedia.org/wiki/Jules_and_Jim [Accessed: 19-Sept-2020]-->
+			<p>Jules and Jim is a French New Wave romantic drama film, directed, produced and written by François Truffaut. The film is based on Henri-Pierre Roché's 1953 semi-autobiographical novel that describes his relationship with young writer Franz Hessel and Helen Grund. Truffaut  discovered the book in the '50s while browsing through some books at a library, in Paris.</p>
+			<a href="#" class="btn btn-secondary" style="margin:8px; background-color:#A48C5C">Learn More</a>
+		</div>
+		</section>
+  
+		<section class="media previous-directors mb-4">
+		<!--Resource image: "The poster art copyright is believed to belong to the distributor of the film, Cocinor, the publisher of the film or the graphic artist."", "The 400 Blows" [Online]. Available: https://en.wikipedia.org/wiki/File:Quatre_coups2.jpg [Accessed: 18-Sep-2020]-->
+		<img class="d-flex mr-3 img-fluid" style="width:200px;" src="img/the-400-blows-poster.jpg" alt="The 400 Blows Poster Photo">
+		<div class="media-body">
+			<h2>The 400 Blows</h2>
+			<h5>(1959)</h5>
+			<!--Wikipedia, the free encyclopedia. [Online]. Available: https://en.wikipedia.org/wiki/The_400_Blows [Accessed: 19-Sept-2020]-->
+			<p>This is a highly personal and sensitive story that François Truffaut told from the point of view of his cinematic counterpart, Antoine Doinel (Jean-Pierre Léaud). The 400 Blows (Les quatre cents coups) is a reflextion of Truffaut’s own childhood and traumas, from having issues with his family, the teachers who were oppresive, and petty crime. Apart from being a masterpiece, this film made Truffaut the auteur of the French New Wave.</p>
+			<a href="#" class="btn btn-secondary" style="margin:8px; background-color:#A48C5C">Learn More</a>
+		</div>
+		</section>
+
+		<section class="media previous-directors mb-4">
+		<!--Resource image:[www.affichescinema.com], "Shoot the Piano Player" [Online]. Available: https://en.wikipedia.org/wiki/File:Tirez_sur_le_pianiste.jpg [Accessed: 18-Sep-2020]-->
+			<img class="d-flex mr-3 img-fluid" style="width:200px;" src="img/shoot-the-piano-player-poster.jpg" alt="Shoot the Piano Player Poster Photo">
+			<div class="media-body">
+				<h2>Shoot the Piano Player</h2>
+				<h5>(1960)</h5>
+				<!--Wikipedia, the free encyclopedia. [Online]. Available: https://en.wikipedia.org/wiki/Shoot_the_Piano_Player [Accessed: 19-Sept-2020]-->
+				<p>This is one of François Truffaut's most playful films. Part thriller, part comedy, part tragedy, the film presents the adventures of piano player Charlie (Charles Aznavour) as he discoveres the criminal underworld and gets involved in a whirlwind love affair. It's considered an homage to the American gangster film and is loaded with guns, puns, clowns and thugs.</p>
+				<a href="#" class="btn btn-secondary" style="margin:8px; background-color:#A48C5C">Learn More</a>
+			</div>
+			</section>
+	</section>
+  </section>
+	
+
+	<!-- Footer -->
+	<!--Resource: Divinector, “How to Design Responsive Footer with html css and Bootstrap | Footer Design html css”, 2019. [Online]. Available: https://www.youtube.com/watch?v=4jelwvPcS8w [Accessed: 19-Sept 2020]-->
+
+	<footer class="page-footer">
+		<div class="tfb-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12 segment-one text-light md-mb-30 sm-mb-30">
+						<h4>The Film Buffs</h4>
+						<p>For all cinema aficionados out there</p>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12 segment-two text-light md-mb-30 sm-mb-30">
+						<h4>Useful Links</h4>
+						<ul>
+							<li><a href="#" class="text-light">Privacy Policy</a></li>
+							<li><a href="#" class="text-light">Cookie Policy</a></li>
+							<li><a href="#" class="text-light">Terms of Use </a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12 segment-three text-light sm-mb-30">
+						<h4>Follow Us</h4>
+						<p>Stay in touch with us on social media</p>
+						<a href="#" class="text-light tfb-social tfb-facebook"><i class="fa fa-facebook"></i></a>
+						<a href="#" class="text-light tfb-social tfb-twitter"><i class="fa fa-twitter"></i></a>
+						<a href="#" class="text-light tfb-social tfb-linkedin"><i class="fa fa-linkedin"></i></a>
+						<a href="#" class="text-light tfb-social tfb-pintrest"><i class="fa fa-pinterest"></i></a>
+					</div>
+					
+					<div class="col-md-3 col-sm-6 col-xs-12 segment-four text-light sm-mb-30">
+						<h4>Our Newsletter</h4>
+						<p>If you want to receive monthly The Film Buffs Newsletter, please subscribe here.</p>
+						<form action="">
+							<input type="email" value="Your email">
+							<input type="submit" style="background-color:#A48C5C" value="Subscribe" class="text-light">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Copyright -->
+		<div class="footer-copyright text-center text-secondary py-3" 
+		style="background-color:#383837">
+			© 2020 Copyright:
+			<a href="#" class="text-light">the-film-buffs.com</a>
+			<a href="./report.html">WEBSITE REPORT</a>
+		  </div>
+		  
+	</footer>
+
+
+
+	<!-- Optional JavaScript -->
+	
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
+

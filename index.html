@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<!-- This head section contains all the invisible information about the page -->
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This is the fictitious monthly newsletter for members of The Film Buffs club from Bucharest (Romania) and general public passionate about cinema topics.">
+	<meta name="author" content="The Film Buffs club members, in collaboration with Bucharest Cultural Centre.">
+	<meta name="keywords" content="Cinema Movie Film 'The Film Buffs' 'Cinema organisation' ">
+	<meta name="refresh" content="600">
+
+	<!-- Responsive viewport meta tag -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+	<!-- Bootstrap CSS --> 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	
+	<!-- Style Sheet file, underneath the Bootstrap folder-->
+
+	<link rel="stylesheet" href="./StyleSheet/style.css">
+
+	<!--Font Awesome CSS-->
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/v4-shims.css">
+
+	<!-- Title of the 1st page -->
+
+	<title>The Film Buffs | Welcome</title>
+	 
+</head>
+
+<!-- This body section contains the structure for all the visble content -->
+<body>
+
+<!--Navigation Bar with Logo-->
+<!--Resource: R. Villalobos, Bootstrap 4 Essential Training“, 2018. [Online]. Available:  https://github.com/planetoftheweb/bootstrap4 [Accessed: 19-Sept-2020]-->
+
+<nav class="navbar navbar-dark navbar-expand-sm" style="background-color:#454544">
+	<div class="container">
+
+		<!--Hamburger button-->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggleNav"
+		aria-controls="toggleNav"
+		aria-expanded="false" aria-label="Toggle Navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<!--Logo image-->
+		<a class="navbar-brand" href="#">
+			<!--Resource: Logo created manually using the https://hatchful.shopify.com/ application-->
+			<img class="img-fluid rounded-circle" src="img/logo.png" style="width: 125px;" alt="The Film Buffs Logo">
+		</a>
+		<span class="navbar-text d-none d-xl-inline-block">For all cinema aficionados out there</span>
+
+		<!--Hamburger menu-->
+		<div class="collapse navbar-collapse" id="toggleNav">
+			
+			<!--Navbar-->
+			<div class="navbar-nav ml-sm-auto">
+				<a class="nav-item nav-link active" href="./index.html">Home</a>
+	
+				<!--Dropdown menu-->
+				<div class="dropdown">
+					<a class="nav-item nav-link dropdown-toggle"
+					data-toggle="dropdown" id="directorSpotlightDropdown"
+					area-haspopup="true" area-expanded="false"
+					href="#">Director Spotlight</a>
+	
+					<div class="dropdown-menu" style="background-color:#F4CC74" area-labelledby="directorSpotlightDropdown">
+						<a class="dropdown-item text-dark" style="background-color:#F4CC74" href="./directors.html">August 2020</a>
+						
+						<!--Disabled item-->
+						<div class="dropdown-item text-black-50 disabled" >July 2020 - Archived</div>
+					</div>
+				</div>
+	
+				<a class="nav-item nav-link" href="./filmography.html">Filmography</a>
+				<a class="nav-item nav-link" href="./club-values.html">Club Values</a>
+				<a class="nav-item nav-link" href="./contact.html">Contact Us</a>
+	
+			</div><!--navbar-->
+		</div><!--collapse-->
+	</div><!--container-->
+  </nav><!--Navigation bar-->
+
+	<!--Carousel with captions-->
+	<!--Resource: R. Villalobos, Bootstrap 4 Essential Training“, 2018. [Online]. Available:  https://github.com/planetoftheweb/bootstrap4 [Accessed: 19-Sept-2020]-->
+
+	<div class="carousel slide carousel-fade" id="noir" data-ride="carousel" style="max-width: 75%; margin-right: auto; margin-left: auto;">
+		<ol class="carousel-indicators">
+			<li data-target="#noir" data-slide-to="0"></li>
+			<li data-target="#noir" data-slide-to="1"></li>  
+			<li data-target="#noir" data-slide-to="2" class="active"></li>  
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item"> 
+				<!--Resource image: MindSpigot, "Golden Gate Film Noir" [Online]. Available: https://ccsearch.creativecommons.org/photos/d5380149-d788-49af-86db-82902290891b [Accessed: 18-Sep-2020]-->
+				<img class="d=d-block w-100 rounded-bottom" src="img/golden_gate.jpg" alt="Golden Gate Film Noir Caption">
+				<div class="carousel-caption">
+					<h3>Stanley Kubrick</h3>
+					<p class="tfb-carousel-p">"If it can be written or thought, it can be filmed."</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<!--Resource image: M. Parkin, "Film Noir Footage (1)" [Online]. Available: https://ccsearch.creativecommons.org/photos/7e86ea49-14a9-4080-bf42-f66f91a50e6f [Accessed: 18-Sep-2020]-->
+			  	<img class="d=d-block w-100 rounded-bottom" src="img/film-noir-footage.jpg" alt="Film Noir Footage">
+			  	<div class="carousel-caption">
+					<h3>David Lynch</h3>
+					<p class="tfb-carousel-p">"We think we understand the rules when we become adults but what we really experience is a narrowing of the imagination."</p>
+			  	</div>
+			</div>
+			<div class="carousel-item active">
+				<!--Resource image: M. Sat, "Comme dans un film noir", [Online]. Available: https://ccsearch.creativecommons.org/photos/c15b6e84-ca99-4eb7-980f-d390d215fe4b [Accessed: 18-Sep-2020]-->
+				<img class="d=d-block w-100 rounded-bottom" src="img/come-dans-un-film-noir.jpg" alt="Comme dans un film noir Caption">
+				<div class="carousel-caption">
+					<h3>Ingmar Bergman</h3>
+					<p class="tfb-carousel-p">"No art passes our conscience in the way film does, and goes directly to our feelings, deep down into the dark rooms of our souls."</p>
+				  </div>
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#noir"
+			role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true">
+				<span class="sr-only">Previous</span>
+			</span>
+		</a>
+		<a class="carousel-control-next" href="#noir"
+			role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true">
+				<span class="sr-only">Next</span>
+			</span>
+		</a>
+	</div>
+
+	<!--About Us section-->
+
+	<section class="about-us py-3" id="about-us">
+		<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h1 class="display-3 text-center">About Us</h1>
+				<hr>
+				<p>The Film Buffs is a club for cinema lovers, in particular classical movies. We are welcoming everyone to join our community and spread awareness about the cinema world.</p>
+				<p>Every month we pick a director and we place it in the spotlight. We encourage the general public to watch the recommended filmography and become a part of The Film Buffs community.</p>	
+				<p>Though we have members all around the world, you can find us at the Cinema Hall from Bucharest Cultural Centre, to which we thank for the initiative to host our events and be a part of The Film Buffs adventure.</p>	 	
+			</div>
+			<div class="col-md-6 text-center">
+				<!--Resource image: N. Eckhart, "Nothing says 1970s like this cinema!", [Online]. Available: https://ccsearch.creativecommons.org/photos/95a05904-8233-494e-9bfe-0dd1adb7f244 [Accessed: 18-Sep-2020]-->
+				<img class="rounded-circle" src="img/cinema-building.jpg" alt="Icon">
+				<a href="./contact.html" type="button" class="btn btn-secondary btn-lg" style="width:300px; height:50px; background-color:#A48C5C; margin:8px">How to reach The Film Buffs</a>
+			</div>
+		</div>
+	</div>
+	</section>
+
+
+	<!-- Get started section -->
+
+	<section class="get-started py-3" style="background-color:#E3E5E0;">
+		<div class="container get-started text-center">
+			<div>
+				<h1 class="display-3">Get Started</h1>
+				<hr>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col">
+					<a href="./directors.html" class="btn btn-secondary btn-lg" style="width:300px; height:50px; margin:8px; background-color:#A48C5C">Check the Director Spotlight</a>
+				</div>
+				<div class="col">
+					<a href="./filmography.html" class="btn btn-secondary btn-lg" style="width:300px; height:50px; margin:8px; background-color:#A48C5C">Recommended Filmography</a>
+				</div>
+				<div class="col">
+					<a href="./club-values.html" class="btn btn-secondary btn-lg" style="width:300px; height:50px; margin:8px; background-color:#A48C5C">Read about Club Values</a>
+			</div>
+	  	</div>
+	</section>
+
+	<!--Resource image: K. Dooley, "Fireworks on film", [Online]. Available: https://ccsearch.creativecommons.org/photos/45878b6a-c8f8-45cb-a665-c4dcdbc3a3be [Accessed: 18-Sep-2020]-->
+	<section class="img-fluid" style="height: 60vh; background: url(img/fireworks_film.jpg) no-repeat center; background-size: cover">
+		<form class="form-inline justify-content-center md-form mr-auto mb-4" style="padding-top:200px">
+			<input class="form-control form-control-lg mr-sm-2" style="width:300px" type="text" placeholder="Search our website" aria-label="Search">
+			<button class="btn btn-secondary btn-lg my-0" style="margin:5px; background-color:#A48C5C" type="submit">Go</button>
+		  </form> 
+	</section>
+
+
+	<!-- Footer -->
+	<!--Resource: Divinector, “How to Design Responsive Footer with html css and Bootstrap | Footer Design html css”, 2019. [Online]. Available: https://www.youtube.com/watch?v=4jelwvPcS8w [Accessed: 19-Sept 2020]-->
+	<footer class="page-footer">
+		<div class="tfb-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12 segment-one text-light md-mb-30 sm-mb-30">
+						<h4>The Film Buffs</h4>
+						<p>For all cinema aficionados out there</p>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12 segment-two text-light md-mb-30 sm-mb-30">
+						<h4>Useful Links</h4>
+						<ul>
+							<li><a href="#" class="text-light">Privacy Policy</a></li>
+							<li><a href="#" class="text-light">Cookie Policy</a></li>
+							<li><a href="#" class="text-light">Terms of Use </a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12 segment-three text-light sm-mb-30">
+						<h4>Follow Us</h4>
+						<p>Stay in touch with us on social media</p>
+						<a href="#" class="text-light tfb-social tfb-facebook"><i class="fa fa-facebook"></i></a>
+						<a href="#" class="text-light tfb-social tfb-twitter"><i class="fa fa-twitter"></i></a>
+						<a href="#" class="text-light tfb-social tfb-linkedin"><i class="fa fa-linkedin"></i></a>
+						<a href="#" class="text-light tfb-social tfb-pintrest"><i class="fa fa-pinterest"></i></a>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12 segment-four text-light sm-mb-30">
+						<h4>Our Newsletter</h4>
+						<p>If you want to receive monthly The Film Buffs Newsletter, please subscribe here.</p>
+						<form action="">
+							<input type="email" value="Your email">
+							<input type="submit" style="background-color:#A48C5C" value="Subscribe" class="text-light">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Copyright -->
+		<div class="footer-copyright text-center text-secondary py-3" 
+			style="background-color:#383837">
+			© 2020 Copyright:
+			<a href="#" class="text-light">the-film-buffs.com</a>
+			<a href="./report.html">WEBSITE REPORT</a>
+		</div>
+		  
+	</footer>
+
+
+
+	<!-- Optional JavaScript -->
+	
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
